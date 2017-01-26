@@ -1,0 +1,26 @@
+{
+  "name": "random-quote-machine",
+  "version": "1.0.0",
+  "description": "delever random quotes with API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reubenberghan/random-quote-generator.git"
+  },
+  "keywords": [
+    "quotes"
+  ],
+  "author": "Reuben Berghan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reubenberghan/random-quote-generator/issues"
+  },
+  "homepage": "https://github.com/reubenberghan/random-quote-generator#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

@@ -1,0 +1,12 @@
+.btn {
+  border-radius: 0;
+  background: $btn-bg-color;
+  border-color: $btn-border-color;
+  color: $btn-color;
+
+  &:hover, &:focus {
+    background: $btn-alt-bg-color;
+    color: $btn-alt-color;
+    border-color: $btn-alt-border-color;
+  }
+}

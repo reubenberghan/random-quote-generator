@@ -1,0 +1,26 @@
+.blockquote {
+  background: $blockquote-bg-color;
+  border-left-color: $blockquote-border-color;
+  quote: "\201C""\201D""\2018""\2019";
+
+  &:before {
+    color: $blockquote-border-color;
+    content: open-quote;
+    position: absolute;
+    top: -2rem;
+    left: 3rem;
+    font-size: 4rem;
+    margin-right: 0.25rem;
+    vertical-align: -0.4rem;
+  }
+  &:after {
+    color: $blockquote-border-color;
+    content: close-quote;
+    position: absolute;
+    bottom: -3.75rem;
+    right: 2.25rem;
+    font-size: 4rem;
+    margin-right: 0.25rem;
+    vertical-align: -0.4rem;
+  }
+}

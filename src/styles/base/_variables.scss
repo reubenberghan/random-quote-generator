@@ -13,7 +13,7 @@ $bg-color: $primary;
 $jumbotron-bg-color: $dark-grey;
 
 // blockquote
-$blockquote-bg-color: $light-grey;
+$blockquote-bg-color: lighten($light-grey, 33.33%);
 $blockquote-border-color: darken($jumbotron-bg-color, 33.33%);
 
 // btn

@@ -1,1 +1,53 @@
+@import 'base/variables';
 
+body {
+  background: $bg-color;
+}
+
+.container {
+  margin-top: 5rem;
+}
+
+.jumbotron {
+  background: $jumbotron-bg-color;
+}
+
+.blockquote {
+  background: $blockquote-bg-color;
+  border-left-color: $blockquote-border-color;
+  quote: "\201C""\201D""\2018""\2019";
+
+  &:before {
+    color: $blockquote-border-color;
+    content: open-quote;
+    position: absolute;
+    top: -2rem;
+    left: 3rem;
+    font-size: 4rem;
+    margin-right: 0.25rem;
+    vertical-align: -0.4rem;
+  }
+  &:after {
+    color: $blockquote-border-color;
+    content: close-quote;
+    position: absolute;
+    bottom: -3.75rem;
+    right: 2.25rem;
+    font-size: 4rem;
+    margin-right: 0.25rem;
+    vertical-align: -0.4rem;
+  }
+}
+
+.btn {
+  border-radius: 0;
+  background: $btn-bg-color;
+  border-color: $btn-border-color;
+  color: $btn-color;
+
+  &:hover, &:focus {
+    background: $btn-alt-bg-color;
+    color: $btn-alt-color;
+    border-color: $btn-alt-border-color;
+  }
+}

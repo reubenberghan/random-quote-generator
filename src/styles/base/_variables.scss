@@ -1,0 +1,25 @@
+// colors
+$primary: #6b8e4e;
+$accent: #3c5148;
+$dark-grey: #b2c5b3;
+$light-grey: #d5ddde;
+$black: #333;
+$white: #fff;
+
+// body
+$bg-color: $primary;
+
+// jumbotron
+$jumbotron-bg-color: $dark-grey;
+
+// blockquote
+$blockquote-bg-color: $light-grey;
+$blockquote-border-color: darken($jumbotron-bg-color, 33.33%);
+
+// btn
+$btn-color: $white;
+$btn-bg-color: $accent;
+$btn-border-color: $btn-bg-color;
+$btn-alt-color: $primary;
+$btn-alt-bg-color: $btn-color;
+$btn-alt-border-color: lighten($primary, 12.25%);

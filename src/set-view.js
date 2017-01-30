@@ -1,7 +1,5 @@
 'use strict';
 
-import $ from 'jquery';
-
 function stripTags (str) {
   return str.replace(/<\/?\w+>/gi, '');
 }

@@ -7,3 +7,5 @@ Along with the button to trigger a new API call for a random quote there is also
 ## Todo List
 
 - [x] Review and refactor code to fetch and place quote into DOM
+- [x] Update styles and add footer
+- [ ] Create demo hosting page to display

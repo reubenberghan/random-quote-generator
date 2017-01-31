@@ -1,0 +1,16 @@
+.footer {
+  background: $footer-bg-color;
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+
+  p {
+    color: $footer-color;
+    text-align: center;
+
+    a {
+      color: $footer-link-color;
+    }
+  }
+}

@@ -8,6 +8,7 @@ $white: #fff;
 
 // body
 $bg-color: $primary;
+$bg-image: url("https://www.transparenttextures.com/patterns/skulls.png");
 
 // jumbotron
 $jumbotron-bg-color: $dark-grey;
@@ -23,3 +24,8 @@ $btn-border-color: $btn-bg-color;
 $btn-alt-color: $primary;
 $btn-alt-bg-color: $btn-color;
 $btn-alt-border-color: lighten($primary, 12.25%);
+
+// footer
+$footer-bg-color: $accent;
+$footer-color: $light-grey;
+$footer-link-color: $dark-grey;

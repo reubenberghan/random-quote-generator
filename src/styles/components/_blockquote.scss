@@ -14,13 +14,13 @@
     vertical-align: -0.4rem;
   }
   &:after {
-    color: $blockquote-border-color;
-    content: close-quote;
-    position: absolute;
-    bottom: -3.75rem;
-    right: 2.25rem;
-    font-size: 4rem;
-    margin-right: 0.25rem;
-    vertical-align: -0.4rem;
+     color: $blockquote-border-color;
+     content: close-quote;
+     position: absolute;
+     bottom: -1.75rem;
+     right: 2.25rem;
+     font-size: 4rem;
+     margin-right: 0.25rem;
+     vertical-align: -0.4rem;
   }
 }
